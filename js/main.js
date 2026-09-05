@@ -1,7 +1,7 @@
 /* Navegación móvil y utilidades */
 (function () {
-  var toggle = document.querySelector('.nav__toggle');
-  var menu = document.getElementById('mobileMenu');
+  var toggle = document.querySelector('.menu-toggle');
+  var menu = document.getElementById('menuMobile');
   if (toggle && menu) {
     toggle.addEventListener('click', function () {
       var open = !menu.hidden;
